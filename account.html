@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./images/fiveicon.jpg">
+    <title>حساب کاربری</title>
+</head>
+
+<body>
+    <header class="headers">
+        <!-- header navbars -->
+        <!-- header secction menu nav top -->
+        <section class="nav-top">
+            <div class="container">
+                <nav-top></nav-top>
+            </div>
+        </section>
+        <!-- header secction menu nav center -->
+        <section class="nav-center">
+            <div class="container">
+                <nav-center></nav-center>
+            </div>
+        </section>
+        <!-- header secction menu nav down -->
+        <down-nav></down-nav>
+        <section class="nav-down">
+            <div class="container">
+                <respon-menu></respon-menu>
+            </div>
+        </section>
+        <!-- header now menu -->
+        <menu-now>
+            <span slot="text">حساب کاربری</span>
+        </menu-now>
+    </header>
+
+    <!-- main account -->
+    <main class="main-account">
+        <section class="account">
+            <div class="container">
+                <div class="account__user">
+                    <div class="account-user">
+                        <h3 class="account-user-title">ورود کاربران</h3>
+                        <div class="user-login">
+                            <label>ایمیل</label>
+                            <input type="text">
+                            <label>گذرواژه</label>
+                            <input type="text">
+                        </div>
+                        <a href="#" class="account-btn-link">فراموشی گذرواژه</a>
+                        <a href="#" class="account-btn-login">ورود</a>
+                    </div>
+                    <div class="account-user">
+                        <h3 class="account-user-title">ثبت نام</h3>
+                        <div class="user-sining">
+                            <label>نام</label>
+                            <input type="text">
+                            <label>ایمیل</label>
+                            <input type="text">
+                            <label>گذرواژه</label>
+                            <input type="text">
+                        </div>
+                        <input type="checkbox" name="" >
+                        <label class="checkrol" for="checkbox">شرایط و قوانین را می پذیرم</label>
+                        <a href="#" class="account-btn-sining">ثبت نام</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- footer Newsletters -->
+        <newsletter-footer></newsletter-footer>
+        <!-- footer down -->
+        <footer-down></footer-down>
+        <!-- footer Design -->
+        <footer-design></footer-design>
+    </footer>
+
+
+    <script type="module" src="./js/useraccount.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.menu-respon{
+    background-color: var(--white);
+    display: none;
+}
+.menu__respon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 ;
+}
+.menu__respon i{
+    font-size: 2rem;
+    color: var(--greenColor);
+    cursor: pointer;
+}
+.menu__respon-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.respon-right-img{
+    width: 140px;
+    margin-right: 1rem;
+}
+.menu__respon-left{
+        display: flex;
+        align-items: center;
+    position: relative;
+}
+
+
+.menu-res{
+    position: absolute;
+    right: -80rem;
+    top: 4.2rem;
+    background-color: var(--white);
+    border: 2px solid #dadadd;
+   width: 700px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.res-menus{
+
+}
+
+.res-item{
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--bgColor);
+    display: flex;
+    align-items: center;
+}
+
+.res-link{
+    font-family: iranLight;
+    font-size: 1rem;
+    color: var(--textColor);
+    transition: all 0.3s ease-out;
+}
+.res-link:hover{
+    color: var(--greenColor);
+}
+.res-link img{
+    margin-left: 2rem;
+}
+
+.menu-navbar{
+    position: absolute;
+    left: -80rem;
+    top: 4.1rem;
+    background-color: var(--white);
+    border: 2px solid #dadada;
+width: 700px;
+
+}
+.menu-navbar-items{
+
+}
+.menu-navbar-item{
+    margin: 1rem;
+
+}
+.navbar-item-link{
+    font-family: iranLight;
+    font-size: 1.2rem;
+    color: var(--textColor);
+    transition: all 0.3s ease-out;
+}
+
+.navbar-item-link:hover{
+    color: var(--greenColor);
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+  
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .menu-respon{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .menu-res{
+        max-width: 500px;
+    }
+.menu-navbar{
+    max-width: 500px;
+}
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .menu-res{
+        max-width: 350px;
+    }
+.menu-navbar{
+    max-width: 350px;
+}
+}

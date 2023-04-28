@@ -1,0 +1,28 @@
+.now-menu{
+    background-color: #F8F8F9;
+}
+.now__menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    cursor: pointer;
+}
+.now-menu-home{
+    margin-left: 1rem;
+    font-family: iranLight;
+    font-size: 1rem;
+    color: var(--textColor);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+.now-menu-home:hover{
+    color: var(--greenColor);
+}
+.now-menu-now{
+    margin-right: 1rem;
+    font-family: iranLight;
+    font-size: 1rem;
+    color: var(--greenColor);
+    /* cursor: pointer; */
+}

@@ -1,0 +1,90 @@
+.newproduct-box{
+    margin: 0.5rem 0;
+    background-color: var(--white);
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+.newproduct-box-img{
+    margin-top: 1rem;
+}
+.box__img{
+    width: 180px;
+}
+.newpoduct-box-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12rem;
+    opacity: 0;
+    transform: translateY(3rem);
+    transition: all 0.3s ease-out;
+}
+.newproduct-box:hover .newpoduct-box-link{
+    opacity: 1;
+    transform: translateY(0);
+}
+.box-link-btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0.6rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: var(--bgColor);
+    border: 1px solid var(--white);
+    border-radius: 0.4rem;
+    border-radius: 50%;
+    color: var(--textColor);
+}
+.box-link-btn:hover{
+    color: var(--white);
+    background-color: var(--greenColor);
+}
+.newproduct-box-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-details-title{
+    margin-top: 1rem;
+    font-family: iranMedium;
+    font-size: 1.1rem;
+}
+.box-details-price{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    color: red;
+    margin-top: 0.5rem;
+}
+.box-details-star{
+    margin-top: 1rem;
+    color: yellow;
+    font-size: 1rem;
+}
+.box-details-btn{
+    text-decoration: none;
+    border: 1px solid var(--bgColor);
+    border-radius: 0.3rem;
+    margin: 1rem 0;
+    padding: 0.5rem 3rem;
+    font-family: iranLight;
+    font-size: 1.1rem;
+    color: var(--textColor);
+    transition: all 0.3s ease-out;
+}
+.box-details-btn:hover{
+    background-color: var(--greenColor);
+    color: var(--white);
+}

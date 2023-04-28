@@ -1,0 +1,22 @@
+/* ""font"" */
+@font-face {
+    font-family: iranBlack;
+    src: url(../font/IRANSansWeb_Black.woff);
+}
+
+@font-face {
+    font-family: iranBlod;
+    src: url(../font/IRANSansWeb_Bold.woff);
+}
+
+@font-face {
+    font-family: iranLight;
+    src: url(../font/IRANSansWeb_Light.woff);
+}
+
+@font-face {
+    font-family: iranMedium;
+    src: url(../font/IRANSansWeb_Medium.woff);
+}
+
+

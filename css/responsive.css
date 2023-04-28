@@ -1,0 +1,69 @@
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .box-pay{
+        justify-content: center;
+        margin: 1rem;
+    }
+    .box-specialsale{
+        justify-content: center;
+    }
+    .specialsale-left-img{
+        margin-bottom: 1rem;
+    }
+    .box__bestproduct-items{
+        flex-wrap: wrap;
+    }
+    .Proposal-product{
+        margin-top: 1rem;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .header-items-left{
+        display: none;
+    }
+.header-items-right{
+    flex-basis: 100%;
+}
+
+    .offer-items{
+        flex-wrap: wrap;
+    }
+    .weblog-items{
+        justify-content: center;
+    }
+    .product-items{
+        flex-wrap: wrap;
+    }
+   .offer{
+    height: 60vh;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .header-items-left{
+        display: none;
+    }
+    .account-user:nth-child(1){
+        margin: 1rem 0;
+    }
+    .basket-items{
+        display: flex;
+       flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

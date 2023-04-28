@@ -1,0 +1,46 @@
+.newsletter{
+    padding-top: 3rem;
+    
+}
+.newsletter-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid var(--bgColor);
+    padding-bottom: 2rem;
+}
+.newsletter-title{
+    font-family: iranMedium;
+    margin-bottom:1rem ;
+}
+.newsletter-text{
+    font-family: iranLight;
+    font-size: 0.9rem;
+
+}
+.newsletter-add{
+    margin: 2rem 0;
+    width: 40rem;
+    height: 2.5rem;
+    display: flex;
+    font-family: iranMedium;
+}
+.newsletter-eamil{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding:0 0.5rem ;
+}
+.newsletter-eamil::placeholder{
+    font-size: 1.2rem;
+}
+.newsletter-submit{
+    border: none;
+    outline: none;
+    width: 20%;
+    background-color: var(--greenColor);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+}

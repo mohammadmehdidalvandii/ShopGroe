@@ -1,0 +1,16 @@
+
+.design{
+    background-color: #F2F3F7;
+}
+.design-content{
+    margin: 1rem 0;
+    text-align: center;
+}
+.design-text{
+    padding-top: 1rem;
+    font-family: iranLight;
+    font-size: 0.7rem;
+}
+.design-text span{
+    color: var(--greenColor);
+}

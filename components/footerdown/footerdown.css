@@ -1,0 +1,55 @@
+.footer-down{
+    margin-top: 2rem;
+}
+.footer__down{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.footer-down-items{
+
+}
+.footer-down-item{
+    margin-bottom: 1rem;
+    font-family: iranLight;
+    list-style: none;
+}
+.footer-down-img{
+
+}
+.footer-down-text{
+    display: block;
+    width:16rem;
+    line-height: 1.2;
+}
+.footer-down-title{
+    font-family: iranMedium;
+    font-size: 1.3rem;
+}
+.footer-down-media{
+    margin-left: 0.5rem;
+    color: var(--textColor);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+.footer-down-media:hover{
+    color: var(--greenColor);
+}
+.footer-down-link{
+    color: var(--textColor);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+.address-item{
+    display: block;
+    width: 22rem;
+    line-height: 1.2;
+    font-size: 0.8rem;
+}
+.footer-down-link:hover{
+    color: var(--greenColor);
+}
+.icon-footer{
+    color: var(--greenColor);
+    font-size: 1.2rem;
+}
